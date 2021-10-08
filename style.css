@@ -46,11 +46,10 @@ body {
   letter-spacing: 1.5px;
   padding:12px 20px;
   color: #FFFFFF;
-  border: none;
+  border:1px solid #FA5959;
 }
 .navbar-content span:hover{
   cursor: pointer;
-  border:1px solid #FA5959;
   color: #FA5959;
   background: transparent;
 }
@@ -98,7 +97,7 @@ body {
   /* identical to box height, or 200% */
   padding: 6px 14px;
   letter-spacing: 0.25px;
-  border:none;
+  border:1px solid #5267DF;
   
   color: #FFFFFF;
   margin-right: 10px;
@@ -106,7 +105,7 @@ body {
 .chrome-btn:hover{
   background: transparent;
   color:#5267DF;
-  border:1px solid #5267DF;
+  cursor: pointer;
   outline: none;
 }
 .firefox-btn{
@@ -123,13 +122,15 @@ body {
   mix-blend-mode: normal;
   opacity: 0.75;
   padding: 6px 14px;
-  border: none;
+  border:1px solid #F7F7F7;
+  
 }
 .firefox-btn:hover{
   background: transparent;
   color:#242A45;
-  border:1px solid #242A45;
   outline: none;
+  cursor:pointer;
+  border:1px solid #242A45;
 }
 .header-right{
   position:relative;
@@ -276,7 +277,7 @@ body {
   /* identical to box height, or 200% */
   padding: 12px 20px;
   letter-spacing: 0.25px;
-  border:none;
+  border:1px solid #5267DF;
   color: #FFFFFF;
 }
 .ftr-btn:hover{
@@ -345,7 +346,7 @@ body {
   padding:8px 22px;
   text-align: center;
   letter-spacing: 0.25px;
-  border:none;
+  border:1px solid #5267DF;
   color: #FFFFFF;
   margin-bottom:20px; 
 }
@@ -491,7 +492,7 @@ body {
   font-size: 14px;
   line-height: 28px;
   /* identical to box height, or 200% */
-  border:none;
+  border:1px solid #FA5959;
   text-align: center;
   letter-spacing: 0.25px;
   padding:8px 20px;
@@ -651,12 +652,12 @@ color: #FFFFFF;
   }
   .header{
     flex-direction: column;
+    margin:0;
   }
   
   .header-left{
     order: 2;
-    margin-right:60px;
-    margin-top:20px;
+    margin:30px;
     text-align: center;
   }
   .header-left h3{
